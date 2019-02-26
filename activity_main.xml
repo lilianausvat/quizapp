@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/destinations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="12dp"
+            android:text="Travel Destinations"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/picture1"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="16dp"
+            android:src="@mipmap/ic_launcher"
+            />
+        <TextView
+            android:id="@+id/question_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="12dp"
+            android:text="Where is this? "
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/question_1_AustriaCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="12dp"
+            android:text="Austria" />
+
+        <CheckBox
+            android:id="@+id/question_1FranceCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="12dp"
+            android:text="France" />
+
+        <CheckBox
+            android:id="@+id/question_1_BelvedereCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="12dp"
+            android:text="Belvedere Palace" />
+        <ImageView
+            android:id="@+id/picture2"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="16dp"
+            android:src="@mipmap/ic_launcher"
+            />
+        <TextView
+            android:id="@+id/question_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="6dp"
+            android:text="Where is this Cathedral?"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_question_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question_2_vatican"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="0dp"
+                android:text="Rome" />
+
+            <RadioButton
+                android:id="@+id/question_2_notre_dame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:text="Paris" />
+
+            <RadioButton
+                android:id="@+id/question_2_karl_kirche"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:text="Viena" />
+
+            <RadioButton
+                android:id="@+id/question_2_salisbury"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="6dp"
+                android:text="Bucuresti" />
+        </RadioGroup>
+        <ImageView
+            android:id="@+id/picture3"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="16dp"
+            android:src="@mipmap/ic_launcher"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="6dp"
+            android:text="What city is this?"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/question_3_chicago"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="12dp"
+            android:text="Chicago" />
+
+        <CheckBox
+            android:id="@+id/question_3_toronto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="12dp"
+            android:text="Toronto" />
+
+        <CheckBox
+            android:id="@+id/question_3_dresden"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="12dp"
+            android:text="Dresden" />
+
+        <ImageView
+            android:id="@+id/picture4"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="16dp"
+            android:src="@mipmap/ic_launcher"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="6dp"
+            android:text="What type of building is this?"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_question_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question_4_church_germany"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="0dp"
+                android:text="Church Germany" />
+
+            <RadioButton
+                android:id="@+id/question_4_govbld_newyork"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:text="Government Building New York" />
+
+            <RadioButton
+                android:id="@+id/question_4_palace_rome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="22dp"
+                android:text="Palace Rome" />
+        </RadioGroup>
+        <ImageView
+            android:id="@+id/picture5"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="16dp"
+            android:src="@mipmap/ic_launcher"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="6dp"
+            android:text="On what Country is this?"
+            android:textSize="16sp" />
+        <EditText
+            android:id="@+id/question_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text=""/>
+        <Button
+            android:id="@+id/evaluate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="22dp"
+            android:onClick="startEvaluation"
+            android:text="evaluate_button" />
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:onClick="reset"
+            android:text="@string/reset_button"
+            android:textColor="#ff0033"
+            android:textStyle="bold"  />
+
+    </LinearLayout>
+
+</ScrollView>
